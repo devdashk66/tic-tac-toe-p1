@@ -53,7 +53,7 @@ const Game = () => {
           {showHistory && (
             <div
               onClick={() => setShowHistory(!showHistory)}
-              className="bg-[#00000050] absolute -top-20 -left-80 md:-left-96 w-screen h-screen cursor-pointer"
+              className="bg-[#00000050] absolute -top-20 -left-40 md:-left-96 w-screen h-screen cursor-pointer"
             ></div>
           )}
         </div>
